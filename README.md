@@ -57,11 +57,12 @@ Surface `.label.gii` files already contain embedded label tables, but this LUT i
 
 ## Volumetric files (NIfTI) — `nifti/`
 
-- `CHILD_BN_Atlas_nparc224.nii.gz`  
-  Volumetric parcellation with **224 parcels** (please see README notes or paper for label indexing conventions, e.g., whether background=0).
+- `CHILD_BN_Atlas_nparc224.nii.gz`
+  Volumetric parcellation with **224 parcels** (please see Brain_Atlas_Ontology_Nomenclature_Abbreviations.docx for the ontology, nomenclature, and abbreviations of brain areas in the Child Brainnetome Atlas.).
 
-- `childbrain_template_1mm.nii.gz`  
-  1 mm isotropic child brain template (reference anatomy).
+- `childbrain_template_1mm.nii.gz`
+- `CHILD_ATLAS_template.nii.gz`  
+   child brain template (reference anatomy).
 
 - `childbrain_gm_1mm.nii.gz`, `childbrain_wm_1mm.nii.gz`, `childbrain_csf_1mm.nii.gz`  
   Tissue probability/segmentation maps (GM/WM/CSF) aligned to `childbrain_template_1mm`.
@@ -69,10 +70,7 @@ Surface `.label.gii` files already contain embedded label tables, but this LUT i
 - `childbrain_pdw_1mm.nii.gz`  
   PD-weighted (or PD-like) reference image in the same 1 mm template space.
 
-- `CHILD_ATLAS_template.nii.gz`  
-  **Note:** This filename may be ambiguous (template vs atlas-in-template-space).  
-  Please refer to the accompanying documentation (`read.txt` and/or the atlas paper) for its exact role.  
-  (Recommended future renaming: include `space-...` and `desc-...` or `atlas-..._dseg` in the filename.)
+=
 
 ---
 
