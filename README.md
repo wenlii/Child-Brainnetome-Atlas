@@ -1,5 +1,6 @@
 # Child-Brainnetome-Atlas
-CHILD_BN atlas for preadolescent children (NIfTI + GIFTI label.gii; fsaverage 10k, fsLR 32k/164k)
+CHILD_BN atlas for preadolescent children 
+(NIfTI + GIFTI label.gii; fsaverage 10k, fsLR 32k/164k)
 README.txt
 ==========
 
@@ -91,4 +92,4 @@ C) Citation requirement
 
 Contact / Issues
 ----------------
-For questions, bug reports, or requests for additional formats, please contact the atlas maintainers associated with this release.
+For questions, bug reports, or requests for additional formats, please contact the atlas maintainers at liwen2016@ia.ac.cn.
