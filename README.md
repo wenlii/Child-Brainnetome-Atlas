@@ -8,37 +8,7 @@ This repository provides the **CHILD_BN atlas** for preadolescent children, incl
 
 > **Citation requirement**  
 > If you use any file from this release (volumetric or surface), you must cite:  
-> **“Brainnetome atlas of preadolescent children based on anatomical connectivity profiles”**  
-> (and any associated resource/paper describing this atlas release).
-
----
-
-## Repository layout
-
-
-.
-├── CHILD_BN_Atlas_LUT.txt
-├── freesurfer/
-├── nifti/
-│ ├── CHILD_BN_Atlas_nparc224.nii.gz
-│ ├── CHILD_ATLAS_template.nii.gz
-│ ├── childbrain_template_1mm.nii.gz
-│ ├── childbrain_gm_1mm.nii.gz
-│ ├── childbrain_wm_1mm.nii.gz
-│ ├── childbrain_csf_1mm.nii.gz
-│ └── childbrain_pdw_1mm.nii.gz
-└── surface/
-├── fsaverage.L.CHILD_BN_Atlas.den-10k.label.gii
-├── fsaverage.R.CHILD_BN_Atlas.den-10k.label.gii
-├── fsLR.L.CHILD_BN_Atlas.den-32k.label.gii
-├── fsLR.R.CHILD_BN_Atlas.den-32k.label.gii
-├── fsLR.L.CHILD_BN_Atlas.den-164k.label.gii
-├── fsLR.R.CHILD_BN_Atlas.den-164k.label.gii
-├── shape/
-├── sphere/
-├── surf/
-├── process.sh
-└── read.txt
+> **“Li, W., Fan, L., Shi, W., Lu, Y., Li, J., Luo, N., ... & Jiang, T. (2023). Brainnetome atlas of preadolescent children based on anatomical connectivity profiles. _Cerebral Cortex_, _33_(9), 5264-5275.”**  
 
 
 ---
@@ -61,16 +31,17 @@ Surface `.label.gii` files already contain embedded label tables, but this LUT i
   Volumetric parcellation with **224 parcels** (please see Brain_Atlas_Ontology_Nomenclature_Abbreviations.docx for the ontology, nomenclature, and abbreviations of brain areas in the Child Brainnetome Atlas.).
 
 - `childbrain_template_1mm.nii.gz`
+  1 mm isotropic child brain template
+
+  
 - `CHILD_ATLAS_template.nii.gz`  
-   child brain template (reference anatomy).
+  2 mm isotropic child brain template.
 
 - `childbrain_gm_1mm.nii.gz`, `childbrain_wm_1mm.nii.gz`, `childbrain_csf_1mm.nii.gz`  
   Tissue probability/segmentation maps (GM/WM/CSF) aligned to `childbrain_template_1mm`.
 
 - `childbrain_pdw_1mm.nii.gz`  
   PD-weighted (or PD-like) reference image in the same 1 mm template space.
-
-=
 
 ---
 
