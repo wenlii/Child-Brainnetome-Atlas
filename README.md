@@ -10,7 +10,6 @@ This repository provides the **CHILD_BN atlas** for preadolescent children, incl
 > If you use any file from this release (volumetric or surface), you must cite:  
 > **“Li, W., Fan, L., Shi, W., Lu, Y., Li, J., Luo, N., ... & Jiang, T. (2023). Brainnetome atlas of preadolescent children based on anatomical connectivity profiles. _Cerebral Cortex_, _33_(9), 5264-5275.”**  
 
-
 ---
 
 ## Label LUT
@@ -63,8 +62,6 @@ Main deliverables:
 - `fsLR.{L,R}.CHILD_BN_Atlas.den-164k.label.gii`
 
 Auxiliary/intermediate:
-- `surface/shape/`  
-  Metric/shape files used during generation and/or optional processing steps.
 - `surface/sphere/`  
   Spherical registration surfaces for resampling between densities/spaces.
 - `surface/surf/`  
@@ -74,6 +71,6 @@ Auxiliary/intermediate:
 
 ## Quick start
 
-### 1) Visualize in Connectome Workbench
+### Visualize in Connectome Workbench
 ```bash
 wb_view surface/fsLR.L.CHILD_BN_Atlas.den-32k.label.gii
